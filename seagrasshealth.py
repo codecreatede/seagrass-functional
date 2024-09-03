@@ -19,13 +19,17 @@ import streamlit.components.v1 as components
 st.set_page_config(
     page_title="Seagrass Health Genomics Monitoring System",
     page_icon="Universitat Potsdam",
-    layout="centered",
+    layout="wide",
     initial_sidebar_state="expanded")
 st.image("https://www.uni-potsdam.de/typo3conf/ext/up_template/Resources/Public/Images/logos/up_logo_international_2.png", width=100)
 st.header("Seagrass Health Genomics Monitoring System")
 st.subheader(
     "Developed by Gaurav Sablok, Universitat Potsdam, Germany")
-
+st.write("This is a desktop portal utility to carry for the seagrass expedition")
+st.write("It offers following:")
+st.write("Inbuild database for carbonic anhydrase, light dependent, light independent, photosystem")
+st.write("in-build blast searches")
+st.write("in-build sequence retrieval system")
 
 st.html(
         "<h2> Welcome to the Seagrass Functional Health Monitoring System </h2>"
@@ -44,13 +48,18 @@ st.html(
         "<li><ul><h4>Photosystem: Functionally associated photosyste related genes</h4></ul></li>"
         )
 
-lightminer = st.Page("lightseagrass.py", title="Light-Miner",
-                        icon=":material/add_circle:")
-lightnucl = st.Page(
-    "nucleotide.py", title="Light-Nucleotide", icon=":material/add_circle:")
-lightprotein = st.Page(
-    "protein.py", title="Light-Protein", icon=":material/add_circle:")
+carbonic = st.Page(
+        "carbonic.py", title="Carbonic Annhydrase", icon=":material/add_circle:"
+        )
+
+lightdependentnucl = st.Page(
+    "lightdep.py", title="Light-Dependent-Nucleotide", icon=":material/add_circle:")
+
+lightindependent = st.Page(
+        "lightindep.py", title="Light-Independent-Nucleotide", icon=":material/add_circle:"
+        )
 photosystem = st.Page("photosystem.py", title="Photosystem",
                       icon=":material/add_circle:")
-pg = st.navigation([lightminer, lightnucl, lightprotein, photosystem])
+
+pg = st.navigation([carbonic, lightdependentnucl, lightindependent, photosystem])
 pg.run()
