@@ -9,6 +9,11 @@
 """
     defining the entry point for the main streamlit application.
     The application consists of the following pages.
+    import streamlit as st
+    st.markdown('<div style="text-align: center;">Hello World!</div>', unsafe_allow_html=True)
+    st.markdown('<div style="text-align: left;">Hello World!</div>', unsafe_allow_html=True)
+    st.markdown('<div style="text-align: right;">Hello World!</div>', unsafe_allow_html=True)
+    st.markdown('<div style="text-align: justify;">Hello World!</div>', unsafe_allow_html=True)
 """
 
 import streamlit as st
