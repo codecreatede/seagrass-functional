@@ -25,11 +25,15 @@ st.image("https://www.uni-potsdam.de/typo3conf/ext/up_template/Resources/Public/
 st.header("Seagrass Health Genomics Monitoring System")
 st.subheader(
     "Developed by Gaurav Sablok, Universitat Potsdam, Germany")
-st.write("This is a desktop portal utility to carry for the seagrass expedition")
-st.write("It offers following:")
-st.write("Inbuild database for carbonic anhydrase, light dependent, light independent, photosystem")
-st.write("in-build blast searches")
-st.write("in-build sequence retrieval system")
+
+
+st.html(
+        "<p><h3>This is a desktop utility to carry for the seagrass expedition</p></h3>"
+        "<p><h4>It offers following:<h4>"
+        "<li><ul>Inbuild database for carbonic anhydrase, light dependent, light independent, photosystem</ul></li>"
+        "<ul><li>In-built support for BLAST</ul></li>"
+        "<ul><li>in build sequence retriveal system</ul></li>"
+        )
 
 st.html(
         "<h2> Welcome to the Seagrass Functional Health Monitoring System </h2>"
@@ -42,9 +46,9 @@ st.html(
         "<br>"
         "<p><h2>Seagrass system attributes:<h2></p>"
         "<p><h3>It contains the following genes and their ecosystems</h3></p>"
-        "<li><ul><h4>Light Miner: Genes related to the functional light ecosystem</h4></ul></li>"
-        "<li><ul><h4>Nucleotide Fetcher: It allows you to get the nucleotide sequences for the same</h4></ul></li>"
-        "<li><ul><h4>Protein Fetcher: Functionall associates proteins</h4></ul></li>"
+        "<li><ul><h4>Carbonic Annhydrase: Genes related to the carbonic annhydrase ecosystem</h4></ul></li>"
+        "<li><ul><h4>Light-Dependent-Nucletoide: It allows you to get the nucleotide sequences for the same</h4></ul></li>"
+        "<li><ul><h4>Light-Independent-Nucleotide: Functionally associates proteins</h4></ul></li>"
         "<li><ul><h4>Photosystem: Functionally associated photosyste related genes</h4></ul></li>"
         )
 

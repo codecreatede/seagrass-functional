@@ -1,11 +1,16 @@
 # a streamlit seagrass application for monitoring the seagrass health genomics.
 
 - built using python, javascript and HTML,CSS and currently supports the genome analysis
-- adding support for the geospatial maps rendering from marine genome portal.  
+
+**To Do**
+- adding support for the geospatial maps rendering from marine genome portal.
+- inbuilt blast support and sequence retriveal system.
+- inbuilt support for the genome exploration and chunk genome analysis including phylogenomics.
+
+**Done**
 - inbuilt seagrass genomics genes for health monitoring.
 - inbuilt ethylene responsive genes.
 - inbuilt light associated genes.
-- inbuilt support for BLAST and sequence retriveal.
 
 ```
 git clone https:github.com/seagrass-functional
