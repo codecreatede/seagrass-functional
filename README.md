@@ -8,7 +8,7 @@
 - inbuilt support for BLAST and sequence retriveal.
 
 ```
-git clone https:github.com/seagrass-health
+git clone https:github.com/seagrass-functional
 pipx install virtualenv
 virtualenv streamlit
 source streamlit/bin/activate
