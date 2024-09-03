@@ -10,12 +10,12 @@ import streamlit as st
 import pandas as pd
 import streamlit.components.v1 as components
 
-st.header("Light Miner")
+st.header("Carbonic annhydrase")
 st.subheader("Developed by Gaurav Sablok")
 
 help = st.button("Display the help toggle button")
 if help:
-    st.write("The following options are present in the Light miner")
+    st.write("The following options are present in the Carbonic annhydrase")
     st.write("1. select the gene")
     st.write("2. fasta will come and download for the analysis")
 

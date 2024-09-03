@@ -10,12 +10,12 @@ import streamlit as st
 import pandas as pd
 import streamlit.components.v1 as components
 
-st.header("Light Miner")
+st.header("Light Dependent Genes")
 st.subheader("Developed by Gaurav Sablok")
 
 help = st.button("Display the help toggle button")
 if help:
-    st.write("The following options are present in the Light miner")
+    st.write("The following options are present in the Light Dependent Genes")
     st.write("1. select the gene")
     st.write("2. fasta will come and download for the analysis")
 
@@ -983,4 +983,3 @@ if st.button("get me the light dependent genes"):
         if fastanames[i] == names:
             st.write(f"the names are: >{fastanames[i]}")
             st.write(f"the sequences are: {fastaseq[i]}")
-
