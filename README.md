@@ -3,9 +3,11 @@
 - built using python, javascript and HTML,CSS and currently supports the genome analysis
 
 **To Do**
+- each genes has its own page ad adding the javascript functions and details of those genes and graphics. **DONE**
+- adding the enzyme kinetics and metabolic labelling. **CODE writing**
 - adding support for the geospatial maps rendering from marine genome portal.
-- inbuilt blast support and sequence retriveal system.
-- inbuilt support for the genome exploration and chunk genome analysis including phylogenomics.
+- inbuilt blast support and sequence retriveal system. **DONE**
+- inbuilt support for the genome exploration and chunk genome analysis including phylogenomics. **CODE writing**
 
 **Done**
 - inbuilt seagrass genomics genes for health monitoring.

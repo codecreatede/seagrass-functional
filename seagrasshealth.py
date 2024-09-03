@@ -57,18 +57,21 @@ st.html(
         "<li><ul><h4>Photosystem: Functionally associated photosyste related genes</h4></ul></li>"
         )
 
-carbonic = st.Page(
-        "carbonic.py", title="Carbonic Annhydrase", icon=":material/add_circle:"
-        )
+carbon = st.Page(
+        "carbonican.py", title="Carbonic Annhydrase", icon=":material/add_circle:")
 
 lightdependentnucl = st.Page(
     "lightdep.py", title="Light-Dependent-Nucleotide", icon=":material/add_circle:")
 
 lightindependent = st.Page(
-        "lightindep.py", title="Light-Independent-Nucleotide", icon=":material/add_circle:"
-        )
+        "lightindep.py", title="Light-Independent-Nucleotide", icon=":material/add_circle:")
+
 photosystem = st.Page("photosystem.py", title="Photosystem",
                       icon=":material/add_circle:")
 
-pg = st.navigation([carbonic, lightdependentnucl, lightindependent, photosystem])
+blastyourseq = st.Page(
+        "blastyourse.py", title = "BLAST seagrasses", icon=":material/add_circle:"
+        )
+
+pg = st.navigation([blastyourseq, carbon, lightdependentnucl, lightindependent, photosystem])
 pg.run()
