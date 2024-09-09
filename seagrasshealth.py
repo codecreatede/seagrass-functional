@@ -65,7 +65,7 @@ lightindependent = st.Page("lightindep.py", title="Light-Independent-Nucleotide"
 
 photosystem = st.Page("photosystem.py", title="Photosystem",icon=":material/add_circle:")
 
-blastyourseq = st.Page("blastyourse.py", title = "BLAST seagrasses", icon=":material/add_circle:")
+blastyourseq = st.Page("blastseq.py", title = "BLAST seagrasses", icon=":material/add_circle:")
 
 pg = st.navigation([blastyourseq, carbon, lightdependentnucl, lightindependent, photosystem])
 pg.run()
